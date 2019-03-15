@@ -1,0 +1,1 @@
+gcc ./server.c ./login.c ./search.c ./download.c ./submit_rating.c recommend.c kmeans.c extract_features.c extract_genres.c -o ./server -lsqlite3 -lm
